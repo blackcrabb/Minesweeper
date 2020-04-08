@@ -1,5 +1,6 @@
+
 let size = 5;
-let testMode = false;
+let testMode = true;
 
 let grid = document.getElementById("grid-container");
 
@@ -108,7 +109,7 @@ function clickCell(cell) {
          ) {
             let element =document.querySelector(`[data-index="${i * size + j}"]`)
            //Recursive Call
-           if ( element.innerHTML="")
+           if ( element.innerHTML=="")
            clickCell(element);
     
          }
