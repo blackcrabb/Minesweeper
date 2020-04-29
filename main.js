@@ -1,6 +1,6 @@
 
 let size = 5;
-let testMode = true;
+let testMode = false;
 
 let grid = document.getElementById("grid-container");
 
